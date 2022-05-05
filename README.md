@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center">Deep Link</h1>
-  <h4 align="center">This project demonstrates how to use deep links and pass information between an app and a web page.</h4>
+  <h4 align="center">This project demonstrates how to use deep links to pass information between an app and a web page.</h4>
 </p>
 
 <p align="center">
