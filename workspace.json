@@ -1,4 +1,9 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "mobile": "apps/mobile",
+    "mobile-e2e": "packages/mobile-e2e",
+    "web": "apps/web",
+    "web-e2e": "packages/web-e2e"
+  }
 }
