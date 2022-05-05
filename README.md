@@ -30,6 +30,16 @@ npm run build:web
 npm run build
 ```
 
+## ENV Vars
+
+The deeplink prefix env var for web when running the mobile app via expo needs to be set to:
+
+```NEXT_PUBLIC_DEEP_LINK_PREFIX="exp://127.0.0.1:8081/--/"```
+
+If running the built mobile app use:
+
+```NEXT_PUBLIC_DEEP_LINK_PREFIX="deep://```
+
 
 ## TODO:
 - [ ] Add tests
