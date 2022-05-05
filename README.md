@@ -30,5 +30,8 @@ npm run build
 - [ ] Add pre push hook that runs tests
 - [ ] Set up CI to run tests
 - [ ] Add dotenv to handle env vars for mobile 
+- [ ] Sync web and mobile app styles
+  - [ ] Setup storybook components for both web and mobile
+  - [ ] Create shared pallette lib for web and mobile
 
 This project is scaffolded and has tooling provided by [nx](https://nx.dev/) to help run and generate files.
