@@ -2,7 +2,12 @@
   "name": "deep-link",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dev": "nx run-many --all --target=serve",
+    "build:web": "nx build web",
+    "build:mobile": "nx build-ios mobile -t simulator", 
+    "build": "npm run build:web && npm run build:mobile" 
+  },
   "private": true,
   "devDependencies": {
     "@nrwl/cli": "14.1.1",

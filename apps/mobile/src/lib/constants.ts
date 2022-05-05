@@ -12,6 +12,8 @@ export type RootStackParamList = {
   };
 };
 
+export const INITIAL_ROUTE_NAME = "Home" as const;
+
 // TODO: Move to env vars
 export const FORM_URL = "http://localhost:4200";
 

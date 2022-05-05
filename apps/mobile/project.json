@@ -5,7 +5,8 @@
     "start": {
       "executor": "@nrwl/expo:start",
       "options": {
-        "port": 8081
+        "port": 8081,
+        "ios": true
       }
     },
     "web": {

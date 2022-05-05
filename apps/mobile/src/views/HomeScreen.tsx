@@ -15,7 +15,7 @@ export default function HomeScreen() {
               linearGradient: {
                 colors: ["pink.600", "fuchsia.600"],
                 start: [0, 1],
-                end: [0, 0],
+                end: [1, 1],
               },
             }}
             rounded="2xl"
