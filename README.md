@@ -3,6 +3,7 @@
 </p>
 
 <p align="center">
+  <img width="250" src="./HomeScreenshot.png">
   <img width="250" src="./FormScreenshot.png">
   <img width="250" src="./UserInfoScreenshot.png">
 </p>
