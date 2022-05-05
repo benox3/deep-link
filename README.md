@@ -2,19 +2,33 @@
 
 This project demonstrates how to use deep links and pass information between an app and a web page.
 
+## Running mobile and web apps in dev mode 
+```bash
+npm run dev 
+```
+
 ## Building mobile app for iOS
 ```bash
-nx build-ios myapp
+npm run build:mobile
 ```
 
-## Running mobile app in dev for iOS
+## Building web app
 ```bash
-nx run myapp --platform=ios
+npm run build:web
 ```
 
-## Running web app in dev
+## Building mobile and web 
 ```bash
-nx serve web 
+npm run build
 ```
+
+
+## TODO:
+- [ ] Add tests
+- [ ] Add pre commit hook that runs lint-staged
+- [ ] Add prepare hook that runs conventional commits
+- [ ] Add pre push hook that runs tests
+- [ ] Set up CI to run tests
+- [ ] Add dotenv to handle env vars for mobile 
 
 This project is scaffolded and has tooling provided by [nx](https://nx.dev/) to help run and generate files.
