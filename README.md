@@ -1,5 +1,11 @@
-# DeepLink
+<p align="center">
+  <h1 align="center">Deep Link</h1>
+</p>
 
+<p align="center">
+  <img width="250" src="./FormScreenshot.png">
+  <img width="250" src="./UserInfoScreenshot.png">
+</p>
 This project demonstrates how to use deep links and pass information between an app and a web page.
 
 ## Running mobile and web apps in dev mode 
